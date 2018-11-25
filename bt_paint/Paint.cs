@@ -24,7 +24,6 @@ namespace bt_paint
         Point mouseDown;
         private Pen pen;
         bool paintting = false;
-        Point starttemp, endtemp;
         public Graphics g;
         public Graphics grp;
         #endregion
