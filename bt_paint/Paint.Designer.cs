@@ -98,6 +98,7 @@
             this.pnlPaint.AutoScroll = true;
             this.pnlPaint.BackColor = System.Drawing.Color.White;
             this.pnlPaint.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlPaint.Cursor = System.Windows.Forms.Cursors.Cross;
             this.pnlPaint.Location = new System.Drawing.Point(3, 89);
             this.pnlPaint.Name = "pnlPaint";
             this.pnlPaint.Size = new System.Drawing.Size(792, 331);
@@ -232,11 +233,12 @@
             // 
             // btWhite
             // 
+            this.btWhite.BackColor = System.Drawing.Color.White;
             this.btWhite.Location = new System.Drawing.Point(67, 45);
             this.btWhite.Name = "btWhite";
             this.btWhite.Size = new System.Drawing.Size(25, 25);
             this.btWhite.TabIndex = 0;
-            this.btWhite.UseVisualStyleBackColor = true;
+            this.btWhite.UseVisualStyleBackColor = false;
             this.btWhite.Click += new System.EventHandler(this.btWhite_Click);
             // 
             // btBlack
@@ -291,34 +293,49 @@
             // 
             // i4
             // 
+            this.i4.BackColor = System.Drawing.Color.Silver;
+            this.i4.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.i4.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
+            this.i4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.i4.Location = new System.Drawing.Point(289, 58);
             this.i4.Name = "i4";
             this.i4.Size = new System.Drawing.Size(100, 14);
             this.i4.TabIndex = 0;
-            this.i4.UseVisualStyleBackColor = true;
+            this.i4.UseVisualStyleBackColor = false;
             this.i4.Click += new System.EventHandler(this.i4_Click);
             // 
             // i3
             // 
+            this.i3.BackColor = System.Drawing.Color.Silver;
+            this.i3.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.i3.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
+            this.i3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.i3.Location = new System.Drawing.Point(289, 42);
             this.i3.Name = "i3";
             this.i3.Size = new System.Drawing.Size(100, 12);
             this.i3.TabIndex = 0;
-            this.i3.UseVisualStyleBackColor = true;
+            this.i3.UseVisualStyleBackColor = false;
             this.i3.Click += new System.EventHandler(this.i3_Click);
             // 
             // i2
             // 
+            this.i2.BackColor = System.Drawing.Color.Silver;
+            this.i2.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.i2.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
+            this.i2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.i2.Location = new System.Drawing.Point(289, 29);
             this.i2.Name = "i2";
             this.i2.Size = new System.Drawing.Size(100, 10);
             this.i2.TabIndex = 0;
-            this.i2.UseVisualStyleBackColor = true;
+            this.i2.UseVisualStyleBackColor = false;
             this.i2.Click += new System.EventHandler(this.i2_Click);
             // 
             // i1
             // 
-            this.i1.BackColor = System.Drawing.Color.Black;
+            this.i1.BackColor = System.Drawing.Color.Silver;
+            this.i1.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.i1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
+            this.i1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.i1.Location = new System.Drawing.Point(289, 19);
             this.i1.Name = "i1";
             this.i1.Size = new System.Drawing.Size(100, 5);
@@ -381,14 +398,15 @@
             this.btLine.UseVisualStyleBackColor = true;
             this.btLine.Click += new System.EventHandler(this.btLine_Click);
             // 
-            // Form1
+            // Paint
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pnlContainer);
-            this.Name = "Form1";
+            this.Name = "Paint";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnlContainer.ResumeLayout(false);
             this.grPic.ResumeLayout(false);
