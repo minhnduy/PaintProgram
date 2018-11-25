@@ -322,7 +322,7 @@ namespace bt_paint
                 Image img;
                 Bitmap temp = new Bitmap(openFileDialog1.FileName);
                 img = temp;
-                g.DrawImage(img, mouseDown.X, mouseDown.Y, img.Width/4, img.Height/4);
+                g.DrawImage(img, mouseDown.X, mouseDown.Y, img.Width/3, img.Height/3);
             }
         }
     

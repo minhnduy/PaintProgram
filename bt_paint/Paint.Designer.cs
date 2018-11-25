@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Paint));
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.pnlContainer = new System.Windows.Forms.Panel();
             this.lbLocation = new System.Windows.Forms.Label();
@@ -123,6 +124,7 @@
             // 
             this.btPic.BackgroundImage = global::bt_paint.Properties.Resources.images;
             this.btPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btPic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btPic.Location = new System.Drawing.Point(18, 12);
             this.btPic.Name = "btPic";
             this.btPic.Size = new System.Drawing.Size(60, 60);
@@ -154,6 +156,7 @@
             // btLightBlue
             // 
             this.btLightBlue.BackColor = System.Drawing.Color.Cyan;
+            this.btLightBlue.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btLightBlue.Location = new System.Drawing.Point(191, 45);
             this.btLightBlue.Name = "btLightBlue";
             this.btLightBlue.Size = new System.Drawing.Size(25, 25);
@@ -164,6 +167,7 @@
             // btOr
             // 
             this.btOr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btOr.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btOr.Location = new System.Drawing.Point(191, 14);
             this.btOr.Name = "btOr";
             this.btOr.Size = new System.Drawing.Size(25, 25);
@@ -174,6 +178,7 @@
             // btGray
             // 
             this.btGray.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btGray.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btGray.Location = new System.Drawing.Point(160, 45);
             this.btGray.Name = "btGray";
             this.btGray.Size = new System.Drawing.Size(25, 25);
@@ -184,6 +189,7 @@
             // btPink
             // 
             this.btPink.BackColor = System.Drawing.Color.Fuchsia;
+            this.btPink.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btPink.Location = new System.Drawing.Point(160, 14);
             this.btPink.Name = "btPink";
             this.btPink.Size = new System.Drawing.Size(25, 25);
@@ -194,6 +200,7 @@
             // btBlue
             // 
             this.btBlue.BackColor = System.Drawing.Color.Blue;
+            this.btBlue.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btBlue.Location = new System.Drawing.Point(129, 45);
             this.btBlue.Name = "btBlue";
             this.btBlue.Size = new System.Drawing.Size(25, 25);
@@ -204,6 +211,7 @@
             // btGreen
             // 
             this.btGreen.BackColor = System.Drawing.Color.Lime;
+            this.btGreen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btGreen.Location = new System.Drawing.Point(129, 14);
             this.btGreen.Name = "btGreen";
             this.btGreen.Size = new System.Drawing.Size(25, 25);
@@ -214,6 +222,7 @@
             // btRed
             // 
             this.btRed.BackColor = System.Drawing.Color.Red;
+            this.btRed.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btRed.Location = new System.Drawing.Point(98, 45);
             this.btRed.Name = "btRed";
             this.btRed.Size = new System.Drawing.Size(25, 25);
@@ -224,6 +233,7 @@
             // btYellow
             // 
             this.btYellow.BackColor = System.Drawing.Color.Yellow;
+            this.btYellow.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btYellow.Location = new System.Drawing.Point(98, 14);
             this.btYellow.Name = "btYellow";
             this.btYellow.Size = new System.Drawing.Size(25, 25);
@@ -234,6 +244,7 @@
             // btWhite
             // 
             this.btWhite.BackColor = System.Drawing.Color.White;
+            this.btWhite.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btWhite.Location = new System.Drawing.Point(67, 45);
             this.btWhite.Name = "btWhite";
             this.btWhite.Size = new System.Drawing.Size(25, 25);
@@ -244,6 +255,7 @@
             // btBlack
             // 
             this.btBlack.BackColor = System.Drawing.Color.Black;
+            this.btBlack.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btBlack.Location = new System.Drawing.Point(67, 14);
             this.btBlack.Name = "btBlack";
             this.btBlack.Size = new System.Drawing.Size(25, 25);
@@ -256,6 +268,7 @@
             // 
             this.btMoreColor.BackgroundImage = global::bt_paint.Properties.Resources.MoreColor;
             this.btMoreColor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btMoreColor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btMoreColor.Location = new System.Drawing.Point(228, 22);
             this.btMoreColor.Name = "btMoreColor";
             this.btMoreColor.Size = new System.Drawing.Size(40, 40);
@@ -266,6 +279,7 @@
             // btBackColor
             // 
             this.btBackColor.BackColor = System.Drawing.Color.Black;
+            this.btBackColor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btBackColor.Location = new System.Drawing.Point(14, 22);
             this.btBackColor.Name = "btBackColor";
             this.btBackColor.Size = new System.Drawing.Size(40, 40);
@@ -294,6 +308,7 @@
             // i4
             // 
             this.i4.BackColor = System.Drawing.Color.Silver;
+            this.i4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.i4.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.i4.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.i4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -307,6 +322,7 @@
             // i3
             // 
             this.i3.BackColor = System.Drawing.Color.Silver;
+            this.i3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.i3.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.i3.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.i3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -320,6 +336,7 @@
             // i2
             // 
             this.i2.BackColor = System.Drawing.Color.Silver;
+            this.i2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.i2.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.i2.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.i2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -333,6 +350,7 @@
             // i1
             // 
             this.i1.BackColor = System.Drawing.Color.Silver;
+            this.i1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.i1.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.i1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.i1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -347,6 +365,7 @@
             // 
             this.btEraser.BackgroundImage = global::bt_paint.Properties.Resources.eraser;
             this.btEraser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btEraser.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btEraser.Location = new System.Drawing.Point(233, 19);
             this.btEraser.Name = "btEraser";
             this.btEraser.Size = new System.Drawing.Size(50, 50);
@@ -358,6 +377,7 @@
             // 
             this.btOvan.BackgroundImage = global::bt_paint.Properties.Resources.ovan;
             this.btOvan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btOvan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btOvan.Location = new System.Drawing.Point(177, 19);
             this.btOvan.Name = "btOvan";
             this.btOvan.Size = new System.Drawing.Size(50, 50);
@@ -369,6 +389,7 @@
             // 
             this.btTri.BackgroundImage = global::bt_paint.Properties.Resources.triang;
             this.btTri.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btTri.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btTri.Location = new System.Drawing.Point(121, 19);
             this.btTri.Name = "btTri";
             this.btTri.Size = new System.Drawing.Size(50, 50);
@@ -380,6 +401,7 @@
             // 
             this.btRec.BackgroundImage = global::bt_paint.Properties.Resources.rec;
             this.btRec.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btRec.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btRec.Location = new System.Drawing.Point(65, 19);
             this.btRec.Name = "btRec";
             this.btRec.Size = new System.Drawing.Size(50, 50);
@@ -391,6 +413,7 @@
             // 
             this.btLine.BackgroundImage = global::bt_paint.Properties.Resources.line;
             this.btLine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btLine.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btLine.Location = new System.Drawing.Point(9, 19);
             this.btLine.Name = "btLine";
             this.btLine.Size = new System.Drawing.Size(50, 50);
@@ -404,8 +427,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pnlContainer);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Paint";
-            this.Text = "Form1";
+            this.Text = "Paint";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnlContainer.ResumeLayout(false);
